@@ -1,0 +1,15 @@
+# Databases hold redacted but still private transcript text: never commit them.
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+refresh.log
+.refresh.lock
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+# Local environment
+.env
+.env.*
+.venv/
